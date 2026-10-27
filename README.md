@@ -1,17 +1,22 @@
-# calculadora
+# Simulador de Investimentos
 
-A new Flutter project.
+Um app mobile simples feito em Flutter para comparar dois cenários de investimento ao longo do tempo usando juros compostos. 
 
-## Getting Started
+A ideia aqui é facilitar aquela dúvida clássica: "Onde meu dinheiro rende mais?". O app pega os dados de duas aplicações diferentes e mostra lado a lado qual foi o resultado final e a evolução mês a mês.
 
-This project is a starting point for a Flutter application.
+## 🛠 O que tem no app?
 
-A few resources to get you started if this is your first Flutter project:
+- **Comparação simultânea:** Dá pra simular dois investimentos ao mesmo tempo (com cores diferentes pra não confundir, Roxo e Teal).
+- **Cálculo de Juros Compostos:** Leva em consideração o capital inicial, a taxa de juros mensal e os aportes mensais.
+- **Validação de formulário:** Não deixa o usuário colocar dado em branco ou texto no lugar de número.
+- **Evolução detalhada:** Uma tela de resultados que mostra o montante final, o rendimento líquido (tirando o que saiu do seu bolso) e uma tabela com o saldo mês a mês.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 💻 Tecnologias usadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter / Dart**
+- **Material 3** (UI/UX)
+- Gerenciamento de estado feito com o próprio `setState` nativo (como o app é de escopo reduzido, não houve necessidade de colocar um Provider ou Bloc).
+
+## 🚀 Como rodar o projeto
+
+VÍDEO /https://youtu.be/QA8pP_aWAcw
