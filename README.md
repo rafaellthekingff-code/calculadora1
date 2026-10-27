@@ -19,4 +19,4 @@ A ideia aqui é facilitar aquela dúvida clássica: "Onde meu dinheiro rende mai
 
 ## 🚀 Como rodar o projeto
 
-[vídeo](https://www.linkedin.com/in/seu-perfil)
+[vídeo](https://youtu.be/QA8pP_aWAcw)
